@@ -32,7 +32,7 @@ const Greeting = (props) => {
   return (
     <>
       <Heading>{greeting}</Heading>
-      <Button label="Change Greetin plz" onClick={buttonClick} />
+      <Button label="Change Greeting plz" onClick={buttonClick} />
       <Button margin="small" label={buttonLabel} onClick={buttonClickTwo} />
     </>
   );
